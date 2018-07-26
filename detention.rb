@@ -1,6 +1,8 @@
 #Code your detention class here
 class Detention 
   attr_accessor :location, :time, :grumpy_teacher
+  attr_reader :activity
+  
   def initialize()
     @activity = "collective punishment"
     @students = []
